@@ -1,0 +1,148 @@
+body {
+	background-color: #f4f4f4;
+}
+
+body .container {
+	width: 70%;
+	color: #ffffff;
+	border-radius: 10px;
+	margin-top: 40px;
+	background-color: #62c7cc;
+
+}
+
+.logoContainer img {
+	margin: 25px 0 0 30px;
+	width: 20%;
+}
+.header {
+	margin-top: -10px;
+}
+.form-signin-heading {
+	margin: 30px auto;
+	text-align: center;
+}
+.control-label {
+	text-align: right;
+}
+
+.row.buttons {
+	padding: 20px 0 40px;
+}
+
+.updateBackground{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15% 0;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#updatePopup {
+	width: 90%;
+	max-width: 655px;
+	height: 330px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+#updatePopup h2 {
+	text-align: center;
+	padding-top:140px;
+}
+
+.close {
+	margin: 5px 15px 0 0;
+	font-size: 3em;
+}
+
+label.error {
+	color: red;
+	font-style: italic;
+	font-weight: 400;
+}
+::-webkit-input-placeholder {
+	font-size: 14px;
+	color: #d0cdfa;
+	font-style: italic;
+}
+:-moz-placeholder {
+	font-size:14px;
+	color: #d0cdfa;
+	font-style: italic;
+}
+::-moz-placeholder {
+	font-size: 14px;
+	color: #d0cdfa;
+	font-style: italic;
+}
+:-ms-input-placeholder {
+	font-size: 14px;
+	color: #d0cdfa;
+	font-style: italic;
+}
+.btn-lg {
+	background-color: #d3d3d3;
+	margin: 0 15px;
+}
+.btn-lg:hover {
+	background-color: #bdbdbd;
+	color: #ffffff;
+}
+.btn-primary {
+	background-color: #ff9300;
+	border-color: #ff9300;
+	color: #ffffff;
+}
+.btn-primary:hover {
+	background-color: #e68400;
+	border: none;
+}
+@media screen
+and (min-width: 320px)
+and (max-width: 480px) {
+
+	body {
+		background-color: red;
+	}
+}
+
+@media (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+	body {
+		background-color: #62c7cc;
+	}
+	body .container {
+		width: 100%;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	.logoContainer img {
+		margin-left: -10px;
+		width: 25%;
+	}
+	.control-label{
+		font-size:.8em;
+	}
+	.row.buttons {
+		padding-bottom: 25px;
+		margin-left:-5px;
+	}
+	.control-label {
+		margin-right: 5px;
+		text-align: left;
+	}
+	.btn-lg {
+		padding: 10px 13px;
+		font-size: 15px;
+	}
+
+
+
+}
